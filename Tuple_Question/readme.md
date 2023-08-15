@@ -17,15 +17,13 @@ The second line contains  space-separated integers describing the elements in tu
 
 Print the result of hash(t).
 
-most of the solution are not exact as they didnot use of given integer n which will limit the useras it auto select the given n integers only 
-
 
 ## Code Snippet 📝🔍
 
 ```python
 if __name__ == '__main__':
     n = int(input())  # Read the number of elements in the tuple
-    t = tuple(map(int, input().split()[:2]))  # Read two space-separated integers and create a tuple
+    t = tuple(map(int, input().split()))  # Read two space-separated integers and create a tuple
     print(hash(t))  # Calculate and print the hash value of the tuple
 
 
